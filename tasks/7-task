@@ -1,0 +1,15 @@
+State:karnataka,AP,delhi,UP
+gender:M,F
+Age>0
+
+              
+                GENDER    HEIGHT     AGE
+karnataka        F                           No ticket
+AP               F        -110cm      <5y    No ticket
+DELHI            F                           No ticket
+UP               F        -120cm      <6y    No ticket
+
+karnataka        M        -110cm      <5y    No ticket
+AP               M        -110cm      
+DELHI            M
+UP               M

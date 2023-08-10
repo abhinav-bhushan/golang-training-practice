@@ -18,6 +18,7 @@ func task5() {
 		v11 int
 		v12 byte
 		v13 uint
+		v14 rune
 	)
 	v1 = -34
 	v2 = 125
@@ -32,6 +33,7 @@ func task5() {
 	v11 = 234
 	v12 = 255
 	v13 = 47
+	v14 = 'A'
 	//Need to type convert
 	o1 := uint8(v1) + v2
 	m1 := uint8(v1) * v2
@@ -78,5 +80,10 @@ func task5() {
 	m8 := int(v13) * v11
 	fmt.Println(o8)
 	fmt.Println(m8)
+
+	o9 := int8(v14) + v1
+	m9 := int(int8(v14) * v1)
+	fmt.Println(o9)
+	fmt.Println(m9)
 
 }

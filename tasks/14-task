@@ -1,0 +1,13 @@
+Create company struct
+Id,Name,Website,Telephone,Fax,Address     //Address must be  a promoted field   
+
+
+Create Address struct
+City,Line1,Street,State,Country,Pincode,Map //Map must be a promoted field
+
+
+Create Map struct
+Lan,Lat
+
+
+-Can u access Lan and 

@@ -6,8 +6,8 @@ func task7() {
 
 	var state string = "Karnataka"
 	var gender rune = 'M'
-	var age byte = 18
-	var height uint32 = 110
+	var age byte = 4
+	var height uint32 = 109
 
 	if state == "Karnataka" {
 		if gender == 'F' {

@@ -1,0 +1,1 @@
+Write a gorutine to dynamically change the srv struct fields using go routines

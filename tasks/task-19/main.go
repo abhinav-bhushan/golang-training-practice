@@ -48,8 +48,8 @@ func main() {
 
 func processChars(line string) (cha, vo, c, s int) {
 	//passing for number of characters
-	cha = len(line) + 1
-	s += 1
+	cha = len(strings.Split(line," "))
+	s = 0
 	for _, v := range strings.ToLower(line) {
 		if v == 'a' || v == 'e' || v == 'i' || v == 'o' || v == 'u' {
 			vo += 1

@@ -30,6 +30,8 @@ func main() {
 	http.HandleFunc("/greetby", GreetBy)
 	ehandler:=&handlers.EmployeeHandler{}
 	http.HandleFunc("/employee/add",ehandler.AddEmployee)
+	http.HandleFunc("/employee/delete", ehandler.DeleteEmployee)
+
 
 	
 
